@@ -1,0 +1,147 @@
+#navMenu {
+    height: 80px;
+    background-color: black;
+    padding: 15px;
+}
+
+#menu {
+    padding: 0px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#menuImg {
+    height: 25px;
+    width: 40px;
+}
+
+#titulo {
+    color: white;
+    margin-left: 670px;
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+#idMenu {
+    display: inline-flex;
+}
+
+#titulo2 {
+    font-size: 60px;
+    font-family: "DynaPuff", system-ui;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#conteudo {
+    background-color: gray;
+    font-size: 35px;
+    color: white;
+    width: 700px;
+    height: 500px;
+    margin-left: 70px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+#jogos {
+    background-color: gray;
+    font-size: 80px;
+    color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: 70px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+#img {
+    height: 600px;
+    width: 450px;
+    border: black;
+    border-width: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+#principal {
+    display: inline-flex;
+    margin-top: 90px;
+}
+
+#Wikipedia {
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: "DynaPuff", system-ui;
+    width: 160px;
+    height: 50px;
+    font-size: 13px;
+}
+
+#Wikipedia:hover {
+    background-color:rgb(167, 20, 20);
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.criacoes {
+    width: 70px;
+    height: 70px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 200px;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.linksDropdown {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+}
+
+.linksDropdown:hover {
+    color: rgb(172, 163, 163);
+}
+
+#mySelfie {
+    border-radius: 100%;
+    border: solid 5px;
+    border-color: black;
+    
+}
+
+#imagem {
+    display: block;
+    z-index: 0;
+    float: center;
+    left: 300px;
+    position: absolute;
+    top: 100px;
+}
